@@ -272,7 +272,7 @@ a:hover {
     font-weight: 600;
     font-size: 1.5rem;
     margin: 4px ;
-    padding: 21px ;   
+    padding: 1.5rem ;   
     cursor: pointer; 
     color: var(--terciary-color);
     font-family: "Montserrat", sans-serif; 
@@ -289,6 +289,7 @@ a:hover {
     color: var(--terciary-color) ;
     font-family:var(--font-familione) ;
     font-weight: 400;
+    font-size: 1rem;
     text-align: center;   
 }
 
@@ -398,9 +399,8 @@ a:hover {
        padding: 10px 0;        
     }
 
-    .footerpage {     
-        
-        padding: 16px;
+    .footerpage { 
+        padding: 10px;
     }
 
 }
