@@ -161,14 +161,12 @@ body {
     margin:5px;
     padding: 2px;
     gap:0.5rem;
-
     
 }
 
 .paragrafo_servicos_itens{    
     text-align: center;
 }
-
 
 .contato_form {    
     width:100%;    
@@ -206,7 +204,7 @@ body {
     font-family: var(--font-familione);
 }
 
-.apresentacao_conteudo_formulario {  
+.apresentacao_conteudo_formulario {    
     margin-top: 8px;
     margin-bottom: 8px;    
     display:flex;   
@@ -223,6 +221,7 @@ label {
 
 textarea{
     width: auto;
+    height: auto;
     resize: none;
 }
 
