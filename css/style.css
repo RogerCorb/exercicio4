@@ -121,6 +121,9 @@ body {
     height:50%; 
     display: grid;
     grid-template-columns: 1fr 1fr  ;
+
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
     
     background-color: lightblue;
     padding: 1em;    
@@ -130,7 +133,11 @@ body {
     width: 90%;
     height:50%; 
     display: grid;
+
     grid-template-columns: 1fr 1fr ;
+
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
     
     background-color: lightblue;
     padding: 1em;    
@@ -141,10 +148,21 @@ body {
     padding:5px 5px;
     margin:10px;
     background-color: var(--secondary-color);
-    text-align: center;
+    /*text-align: center;*/
 
     gap:1.5rem;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.servicos_itens > p{
+
+    font-family: var(--font-familione); 
+    color: var(--terciary-color);
+    margin:5px;
+    padding: 2px;
+    gap:0.5rem;
+
+    
 }
 
 .paragrafo_servicos_itens{    
@@ -165,8 +183,8 @@ body {
 .obrigado_conteudo {    
     width:auto;    
     height: auto;
-    margin: 0;
-    padding: 0;   
+    margin: 20rem;
+    padding: 10rem;   
     display: flex;    
     justify-content: center;
     align-items: center;    
