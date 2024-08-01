@@ -111,6 +111,14 @@ body {
     gap:1.5rem;   
 }
 
+.servicos_itens > div{  
+    
+    font-size: 1.0rem;
+    font-family: "Montserrat", sans-serif;
+    gap:1rem;    
+    
+}
+
 .item { 
     order: 4;
 }
