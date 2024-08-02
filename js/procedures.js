@@ -46,7 +46,7 @@ function sendForm() {
     }, 6000);
 }
 
-async function carregarPagina(url) {
+const carregarPagina = async(url) =>  {
     try {
       const response = await fetch(url);
       const html = await response.text();
