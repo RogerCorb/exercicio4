@@ -40,6 +40,6 @@ function sendForm() {
     }, 1000);
 
     setInterval(() => {
-        window.location.href = 'contato.html';
+        window.location.href = 'https://rogercorb.github.io/exercicio4/contato.html';
     }, 6000);
 }
