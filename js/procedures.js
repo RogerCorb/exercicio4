@@ -14,11 +14,11 @@ formulario.addEventListener('click', (event) => {
         setInterval(() => {   
             window.location.href = "contato.html";
         }, 3000);
-        return;
+        
+    } else { 
+        sendForm();
     }
-
-
-    sendForm();
+    
 });
 
 function sendForm() {
