@@ -7,18 +7,40 @@ const contato_form = document.getElementById("contato_section");
 const nome = document.getElementById("nome");
 const email = document.getElementById("email");
 const telefone = document.getElementById("telefone");
-const descricao= document.getElementById("message"); 
+const descricao = document.getElementById("message");
 
-function sendForm() { 
 
-    formulario.reset(); 
+formulario.addEventListener('click', (event) => {
+    event.preventDefault();
+    sendForm();
+});
 
-    contato_form.style.justifyContent = 'center';
-    contato_form.style.alignItems = 'center';
 
-    contato_form.innerHTML = "<h1>Agradecemos por seu contato. Em breve retornaremos a sua solicitação<h1>"   
-  
-    setInterval(() => {  
-        window.location.href = 'contato.html';        
-    }, 5000);  
+function sendForm() {
+
+    formulario.reset();
+    contato_form.classList.remove('contato_form_conteudo')
+    contato_form.classList.add('apresentacao_conteudo_obrigado')
+    contato_form.innerHTML = `<div>
+     <h2>Agradecemos por seu contato. Em breve retornaremos a sua solicitação</h2>
+     <h3>Redirecionamento em: <span id="contador-segundos">6</span> seg</h3>
+    </div>`;
+
+    let segundos = 6;
+
+    document.querySelector('span').style.color = 'black';  
+    
+   
+    const contador = setInterval(() => {
+        segundos--;
+        document.getElementById('contador-segundos').innerText = segundos;
+
+        if (segundos <= 0) {
+            clearInterval(contador);
+        }
+    }, 1000);
+
+    setInterval(() => {
+        window.location.href = 'contato.html';
+    }, 6000);
 }

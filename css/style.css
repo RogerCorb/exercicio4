@@ -212,13 +212,28 @@ body {
 
 .apresentacao_conteudo_formulario {    
     margin-top: 8px;
-    margin-bottom: 8px;    
+    margin-bottom: 10px;    
     display:flex;   
     justify-content: center;
     flex-direction: column;
     padding: 10px 45px;    
     border-radius: 16px;
     background-color: var(--secondary-color);    
+}
+
+.apresentacao_conteudo_obrigado { 
+    display:flex;     
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    width:60%;  
+       
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    padding: 10px 35px;    
+    border-radius: 16px;
+    background-color: var(--secondary-color);     
+    
 }
 
 label {     
@@ -377,7 +392,8 @@ a:hover {
  }
 
  .apresentacao_conteudo_formulario {      
-    padding: 8px 8px;        
+    padding: 8px 8px; 
+    margin-bottom: 15px;       
  }
 
  .apresentacao_links_link {    
