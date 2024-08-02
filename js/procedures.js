@@ -9,7 +9,7 @@ const descricao = document.getElementById("message");
 formulario.addEventListener('submit', (event) => {
     event.preventDefault();
 
-    if (nome.trim() === '' || !telefone || !email  ) { 
+    if (nome.value.trim() === '' || !telefone.value || !email.value  ) { 
         document.getElementById('message').innerText = 'Todos os campos são obrigatórios !';
         setInterval(() => {   
             window.location.href = "contato.html";
