@@ -41,7 +41,7 @@ function sendForm() {
 
     setInterval(() => {
         clearInterval();
-        carregarPagina('https://rogercorb.github.io/exercicio4/contato.html'); 
+        carregarPagina('https://rogercorb.github.io/exercicio4/'); 
         //window.location.href = "contato.html";
     }, 6000);
 }
