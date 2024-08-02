@@ -1,9 +1,5 @@
-
-
 const formulario = document.querySelector("form");
-
 const contato_form = document.getElementById("contato_section");
-
 const nome = document.getElementById("nome");
 const email = document.getElementById("email");
 const telefone = document.getElementById("telefone");
@@ -14,7 +10,6 @@ formulario.addEventListener('click', (event) => {
     event.preventDefault();
     sendForm();
 });
-
 
 function sendForm() {
 
