@@ -6,6 +6,21 @@ const telefone = document.getElementById("telefone");
 const descricao = document.getElementById("message");
 
 
+formulario.addEventListener('click', (event) => {
+    event.preventDefault();
+
+    if (!nome || !telefone || !email  ) { 
+        document.getElementById('message').innerText = 'Todos os campos são obrigatórios !';
+        setInterval(() => {   
+            window.location.href = "contato.html";
+        }, 3000);
+        return;
+    }
+
+
+    sendForm();
+});
+
 function sendForm() {
 
     formulario.reset();
