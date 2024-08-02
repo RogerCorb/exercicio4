@@ -40,6 +40,23 @@ function sendForm() {
     }, 1000);
 
     setInterval(() => {
-        window.location.href = 'https://rogercorb.github.io/exercicio4/contato.html';
+        clearInterval();
+        carregarPagina('https://rogercorb.github.io/exercicio4/contato.html'); 
+        //window.location.href = "contato.html";
     }, 6000);
 }
+
+async function carregarPagina(url) {
+    try {
+      const response = await fetch(url);
+      const html = await response.text();
+      
+    } catch (error) {
+      console.error('Erro ao carregar a página:', error);
+    }
+
+}
+
+  
+
+ 
