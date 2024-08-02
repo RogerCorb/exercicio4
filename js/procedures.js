@@ -6,11 +6,6 @@ const telefone = document.getElementById("telefone");
 const descricao = document.getElementById("message");
 
 
-formulario.addEventListener('click', (event) => {
-    event.preventDefault();
-    sendForm();
-});
-
 function sendForm() {
 
     formulario.reset();
