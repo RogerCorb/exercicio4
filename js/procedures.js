@@ -28,8 +28,7 @@ function sendForm() {
 
     let segundos = 6;
 
-    document.querySelector('span').style.color = 'black';  
-    
+    document.querySelector('span').style.color = 'black';      
    
     const contador = setInterval(() => {
         segundos--;
