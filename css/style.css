@@ -117,12 +117,12 @@ body {
 .servicos_conteudo {     
  
     width:97%;
-    height:70vh;  
+    min-height:90vh;  
     margin: 10;
     padding: 5;    
     display: flex;  
-    flex-direction: column; 
-    
+    flex-direction: column;
+    justify-content: center;     
     align-items: center;
     gap:1.5rem;   
 }
@@ -196,8 +196,8 @@ body {
     margin: 0;
     padding: 0;    
     display: flex;
-    justify-content: center;   
-    gap:1.5rem;   
+    justify-content: center;    
+    gap:1.9rem;   
 }
 
 .obrigado_conteudo {    
