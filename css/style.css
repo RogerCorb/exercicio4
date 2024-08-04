@@ -194,11 +194,10 @@ body {
     width:100%; 
     min-height: 90vh;   
     margin: 0;
-    padding: 0;   
-    display: flex;    
-    justify-content: center;
-    align-items: center;    
-    gap:2.9rem;   
+    padding: 0;    
+    display: flex;
+    justify-content: center;   
+    gap:1.5rem;   
 }
 
 .obrigado_conteudo {    
@@ -346,6 +345,7 @@ a:hover {
     }
     
     .cabecalho_navegacao {       
+        margin-right: 0;
         justify-content: center; 
     }
     
@@ -430,17 +430,18 @@ a:hover {
 
 @media screen and (max-width: 280px) {
 
+    .cabecalho_navegacao {       
+        font-size: 0.9rem; 
+    }
+
     .apresentacao_conteudo{
-
         gap: 0.3rem;
-
     }
 
     .apresentacao_links{
         width:auto;
         justify-content: center;
         align-items: center;
-
     }
 
     .apresentacao_links_link {  
