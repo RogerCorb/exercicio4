@@ -127,6 +127,13 @@ body {
     gap:1.5rem;   
 }
 
+h2 {        
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 3px;
+    font-family: var(--font-familione);
+}
+
 .servicos_itens > div{  
     
     font-size: 1.0rem;
