@@ -184,17 +184,12 @@ h2 {
 }
 
 .servicos_itens > p{
-
+    text-align: center;
     font-family: var(--font-familione); 
     color: var(--terciary-color);
     margin:5px;
     padding: 2px;
-    gap:0.5rem;
-    
-}
-
-.paragrafo_servicos_itens{    
-    text-align: center;
+    gap:0.5rem;    
 }
 
 .contato_form {    
@@ -205,17 +200,6 @@ h2 {
     display: flex;
     justify-content: center;    
     gap:1.9rem;   
-}
-
-.obrigado_conteudo {    
-    width:auto;    
-    height: auto;
-    margin: 20rem;
-    padding: 10rem;   
-    display: flex;    
-    justify-content: center;
-    align-items: center;    
-    gap:2.9rem;   
 }
 
 .contato_form_conteudo {          
@@ -260,11 +244,14 @@ h2 {
     
 }
 
-.apresentacao_conteudo_obrigado h3{ 
-    margin-top: 10px;
-    align-items: center;
-       
+
+h3{ 
+    margin-top: 2rem;
+    font-size: 1.2rem;    
+    font-family: var(--font-familione);    
+    text-align: center;      
 }
+
 
 label {     
     margin-bottom: 4px;      
@@ -433,6 +420,9 @@ a:hover {
     padding: 15px 0;        
  }
 
+ h3{     
+    font-size: 0.9rem;            
+ }
 }
 
 @media screen and (max-width: 280px) {
