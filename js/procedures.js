@@ -47,11 +47,8 @@ function sendForm() {
     }, 1000);
 
     const count = setInterval(() => {  
-        clearInterval(count); 
-        //contato_form.classList.remove('apresentacao_conteudo_obrigado');
-        contato_form.classList.toggle('contato_form_conteudo'); 
-        document.getElementById("section3").innerHTML = sectionContact;       
-        window.location.href = "#section1";
+        clearInterval(count);         
+        window.location.href = "index.html";
     }, 6000);
     return
 }
