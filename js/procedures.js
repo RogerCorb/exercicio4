@@ -43,13 +43,10 @@ function sendForm() {
 
         if (segundos <= 0) {
             clearInterval(contador);
+            window.location.href = "index.html";
         }
     }, 1000);
-
-    const count = setInterval(() => {  
-        clearInterval(count);         
-        window.location.href = "index.html";
-    }, 6000);
+    
     return
 }
 
