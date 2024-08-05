@@ -261,6 +261,8 @@ textarea{
     width: auto;
     height: auto;
     resize: none;
+    border-radius: 12px; 
+    padding: 0.5rem;
 }
 
 .apresentacao_conteudo_formulario_input {        
@@ -383,11 +385,7 @@ a:hover {
         padding: 5px ;
         width: 85%;        
     } 
-
-    .footerpage { 
-        bottom: 2px;
-        position: fixed; 
-    }
+    
 }
 
 @media screen and (max-width: 395px) {
